@@ -1,0 +1,122 @@
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url("../../images/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.result{
+    top: 230px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    width: 100%;
+}
+
+.logo{
+    margin-bottom: 53px;
+}
+
+.user-img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.lock-img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.form{
+
+    &__input-user{
+        position: absolute;
+        width: 300px;
+        height: 45px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        outline: none;
+        color: white;
+    }
+
+    &__input-password{
+        position: absolute;
+        width: 300px;
+        height: 45px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 43px;
+        background-color: transparent;
+        outline: none;
+        color: white;
+    }
+
+    &__input:focus {
+        background-color: transparent;
+        outline: none;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-transform: none;
+      }
+
+
+
+
+    &__btn{
+        margin-top: 86px;
+        width: 300px;
+        height: 45px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D75FF;
+        cursor: pointer;
+    }
+
+    &__btn:hover{
+        transition: all 0.4s;
+       opacity: 0.8;
+    }
+
+    &__btn:active{
+        transition: all 0.4s;
+        opacity: 0.4;
+    }
+
+    &__desc{
+        color: white;
+        margin-left: 160px;
+    }
+
+
+}

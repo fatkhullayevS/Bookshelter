@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="homePage.html">
+                <img src="./images/logo_homePage.svg" alt="" width="226" height="44">
+            </a>
+            <form class="form-home">
+                <button class="form-home__btn"><img class="form-home__btn-img" src="./images/search-btn.svg" alt=""
+                        width="19" height="19"></button>
+                <input class="form-home__input search-input" autocomplete="off" type="text" placeholder="Search books">
+            </form>
+            <div class="header__right">
+                <img class="header__sun-img" src="./images/sun.svg" alt="" width="23" height="23">
+                <button class="logout-btn">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <p class="hero__result">Showing 18 Result <span class="search-result"></span></p>
+                <button class="hero__filter-btn">
+                    <img class="hero__filter-img" src="./images/calendar.svg" alt="" width="24" height="24">
+                    <p class="hero__desc">Order by newest</p>
+                </button>
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 main__bookmarks">
+                        <h1 class="main__heading">Bookmarks</h1>
+                        <p class="main__desc">If you don’t like to read, you haven’t found the right book</p>
+                        <div class="bookmark">
+
+                        </div>
+                    </div>
+                    <div class="col-9 ">
+                        <div class="row render-book">
+
+                        </div>
+                        <div class="render-pag">
+
+                        </div>
+                        <div class="pag-btn">
+                            <button class="prev-btn btn btn-primary w-25">Prev</button>
+                            <button class="next-btn btn btn-primary w-25">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

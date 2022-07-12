@@ -1,0 +1,49 @@
+.hero{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    height: 56px;
+    margin-top: 11px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__result{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: black;
+        padding-top: 20px;
+        margin-left: 306px;
+    }
+
+    &__filter-btn{
+        display: flex;
+        background: #A6B0C3;
+        border-radius: 4px;
+        border: none;
+        margin-top: 7px;
+    }
+
+    &__filter-img{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    &__desc{
+        padding: 0;
+        margin: 0;
+        padding: 9px 13px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}

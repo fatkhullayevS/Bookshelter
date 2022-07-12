@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
     <title>Document</title>
 </head>
-<body>
 
+<body class="body">
+    <div class="container">
+        <div class="form-section">
+            <a href="index.html">
+                <img class="logo" src="./images/bookshelter-logo.svg" alt="" width="266" height="44">
+            </a>
+            <form class="form">
+                <input type="text" class="form__input-user" id="username" autocomplete="off" name="username" required
+                    placeholder="Username"><br><br><br>
+                <input type="password" class="form__input-password" id="password" autocomplete="off" name="password"
+                    required placeholder="Password">
+                <p class="result"></p>
+                <button class="form__btn">Login</button>
+
+            </form>
+            <p class="form__desc">Forget password</p>
+        </div>
+    </div>
+
+
+    <script src="./js/login.js"></script>
 </body>
+
 </html>

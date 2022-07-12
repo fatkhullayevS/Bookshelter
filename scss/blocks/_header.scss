@@ -1,0 +1,43 @@
+.header{
+    margin-top: 11px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.form-home{
+    position: absolute;
+    width: 670px;
+    height: 48px;
+    margin-left: 306px;
+    // top: 11px;
+    background: #F8FAFD;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+
+    &__btn{
+        background-color: transparent;
+        border: none;
+    }
+
+    &__input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 600px;
+        height: 48px;
+    }
+
+}
+
+.logout-btn{
+    font-family: "rubik";
+    color: white;
+    padding: 10px 23px;
+    border: none;
+    background: #0D75FF;
+    border-radius: 4px;
+}
