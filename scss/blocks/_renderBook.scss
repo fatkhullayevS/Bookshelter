@@ -105,6 +105,18 @@
         top: 10px;
     }
 
+    &__read:hover{
+        color: orange;
+        transition: all 0.4s;
+
+    }
+
+    &__read:active{
+        color: white;
+        transition: all 0.4s;
+        opacity: 0.4;
+    }
+
 }
 
 .offcanvas-header{
@@ -176,4 +188,31 @@
     // margin: 0 auto;
     margin-left: 400px;
     margin-top: 10px;
+}
+
+.read-btn{
+    padding: 9px 38px;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #75828A;
+    border-radius: 4px;
+    margin-left: 350px;
+    top: 134px;
+}
+
+.read-btn:hover{
+    color: white;
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+.read-btn:active{
+    color: white;
+    opacity: 0.4;
+    transition: all 0.4s;
 }

@@ -7,6 +7,7 @@ const elForm = document.querySelector(".form-home__btn")
 const elPrevBtn = document.querySelector(".prev-btn")
 const elNextBtn = document.querySelector(".next-btn")
 const elPag = document.querySelector(".render-pag")
+const elOfcanvas = document.querySelector(".offcanvas")
 const elBookmarkList = document.querySelector(".bookmark")
 const elBookmarkBtn = document.querySelector(".bookmark-btn")
 const elInfoBtn = document.querySelector(".info-btn")
@@ -75,6 +76,8 @@ const renderBooks = function(arr){
         class="canvas__author-res">${book.volumeInfo.categories}</span></p>
         <p class="canvas__author">Pages Count: <span
         class="canvas__author-res">${book.volumeInfo.pageCount}</span></p>
+
+        <a href="${book.volumeInfo?.previewLink}" class="read-btn">Read</a>
         </div>
         </div>
 

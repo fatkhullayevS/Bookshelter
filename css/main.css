@@ -827,6 +827,19 @@ img {
   top: 10px;
 }
 
+.render-book__read:hover {
+  color: orange;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.render-book__read:active {
+  color: white;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0.4;
+}
+
 .offcanvas-header {
   background-color: #F8FAFD;
 }
@@ -892,5 +905,34 @@ img {
   width: 500px !important;
   margin-left: 400px;
   margin-top: 10px;
+}
+
+.read-btn {
+  padding: 9px 38px;
+  text-decoration: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #75828A;
+  border-radius: 4px;
+  margin-left: 350px;
+  top: 134px;
+}
+
+.read-btn:hover {
+  color: white;
+  opacity: 0.8;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.read-btn:active {
+  color: white;
+  opacity: 0.4;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 /*# sourceMappingURL=main.css.map */
